@@ -65,24 +65,6 @@ public class FraccionTest {
     }
     
     @Test
-    public void testMultiplicar(){
-    	Fraccion fraccion2 = new Fraccion(3, 4);
-    	Fraccion result = new Fraccion();
-    	result = fraccion.multiplicar(fraccion2);
-    	assertEquals(6, result.getNumerador());
-    	assertEquals(12, result.getDenominador());
-    }
-    
-    @Test
-    public void testDividir(){
-    	Fraccion fraccion2 = new Fraccion(3, 4);
-    	Fraccion result = new Fraccion();
-    	result = fraccion.dividir(fraccion2);
-    	assertEquals(8, result.getNumerador());
-    	assertEquals(9, result.getDenominador());
-    }
-    
-    @Test
     public void testSumar(){
     	Fraccion fraccion2 = new Fraccion(1, 4);
     	Fraccion result = new Fraccion();
