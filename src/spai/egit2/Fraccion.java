@@ -67,4 +67,48 @@ public class Fraccion {
         return (double) numerador / denominador;
     }
 
+    public boolean esImpropia(){
+    	if(this.getNumerador() > this.getDenominador()){
+    		return true;
+    	}
+    	else{
+    		return false;
+    	}
+    }
+
+    public boolean esPropia(){
+    	if(this.getNumerador() < this.getDenominador()){
+    		return true;
+    	}
+    	else{
+    		return false;
+    	}
+    }
+
+	public boolean esEquivalente(Fraccion fraccion2) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public Fraccion multiplicar(Fraccion fraccion2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Fraccion dividir(Fraccion fraccion2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Fraccion sumar(Fraccion fraccion2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Fraccion restar(Fraccion fraccion2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
+
