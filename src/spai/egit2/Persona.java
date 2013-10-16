@@ -16,6 +16,7 @@ public class Persona {
     public Persona(String nombre, String apellido, String apellido2) {
         this.setNombre(nombre);
         this.setApellido(apellido);
+        this.setApellido2(apellido2);
     }
 
     public String getNombre() {
