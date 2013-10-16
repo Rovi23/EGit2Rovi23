@@ -32,6 +32,16 @@ public class NumeroEnteroTest {
         this.numero.incrementar();
         assertEquals(101, this.numero.getValor());
     }
+    
+    @Test
+    public void testIncrementarConPaso() {
+        this.numero.incrementar(15);
+        assertEquals(115, this.numero.getValor());
+        numero = new NumeroEntero(1000);
+        this.numero.incrementar();
+        assertEquals(1000, this.numero.getValor());
+    }
+    
 
     @Test
     public void testDoblar() {
@@ -48,4 +58,30 @@ public class NumeroEnteroTest {
         assertEquals(-1, numero.getValor());
     }
 
+    @Test
+    public void testDecrementarConPaso() {
+        this.numero.decrementar(15);
+        assertEquals(85, this.numero.getValor());
+        numero = new NumeroEntero(1000);
+        this.numero.decrementar();
+        assertEquals(999, this.numero.getValor());
+    }
+    
+    @Test
+    public void testRestar() {
+        this.numero.restar(15);
+        assertEquals(85, this.numero.getValor());
+        numero = new NumeroEntero(1000);
+        this.numero.restar(1);
+        assertEquals(999, this.numero.getValor());
+    }
+    
+    @Test
+    public void testSumar() {
+        this.numero.sumar(15);
+        assertEquals(115, this.numero.getValor());
+        numero = new NumeroEntero(1000);
+        this.numero.sumar(111);
+        assertEquals(1111, this.numero.getValor());
+    }
 }
