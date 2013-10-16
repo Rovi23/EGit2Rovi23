@@ -33,5 +33,21 @@ public class ColeccionDecimales {
         }
         return mayor;
     }
+    
+    public double menor() {
+		return 0;
+    }
+    
+    public double resta() {
+		return 0;
+    }
+    
+    public double size() {
+		return 0;
+    }
+    
+    public double media() {
+		return 0;
+    }
 
 }
