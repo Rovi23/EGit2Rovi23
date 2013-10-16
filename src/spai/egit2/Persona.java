@@ -10,7 +10,7 @@ public class Persona {
         return cadena.substring(0, 1).toUpperCase() + cadena.substring(1).toLowerCase();
     }
 
-    public Persona(String nombre, String apellido) {
+    public Persona(String nombre, String apellido, String apellido2) {
         this.setNombre(nombre);
         this.setApellido(apellido);
     }
@@ -37,6 +37,14 @@ public class Persona {
 
     public String inicial() {
         return this.nombre.substring(0, 1) + ".";
+    }
+    
+    public String getApellido2(){
+    	return null;
+    }
+    
+    public void setApellido2(String apellido2){
+    
     }
 
 }
