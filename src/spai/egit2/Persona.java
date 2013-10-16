@@ -4,6 +4,9 @@ public class Persona {
     private String nombre;
 
     private String apellido;
+    
+    private String apellido2;
+    
 
     private String format(String cadena) {
         cadena = cadena.trim();
@@ -30,9 +33,17 @@ public class Persona {
     public void setApellido(String apellido) {
         this.apellido = this.format(apellido);
     }
+    
+    public String getApellido2() {
+        return apellido2;
+    }
+
+    public void setApellido2(String apellido2) {
+        this.apellido2 = this.format(apellido2);
+    }
 
     public String nombreCompleto() {
-        return this.nombre + " " + this.apellido;
+        return this.nombre + " " + this.apellido + " " + this.apellido2;
     }
 
     public String inicial() {
