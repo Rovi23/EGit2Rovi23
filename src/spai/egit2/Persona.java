@@ -49,13 +49,4 @@ public class Persona {
     public String inicial() {
         return this.nombre.substring(0, 1) + ".";
     }
-    
-    public String getApellido2(){
-    	return null;
-    }
-    
-    public void setApellido2(String apellido2){
-    
-    }
-
 }
