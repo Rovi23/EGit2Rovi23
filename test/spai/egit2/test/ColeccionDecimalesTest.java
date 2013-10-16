@@ -43,7 +43,7 @@ public class ColeccionDecimalesTest {
     
     @Test
     public void media(){
-    	assertEquals(2.9, this.numeros.media(), 1e-10);
+    	assertEquals(1.9333333333, this.numeros.media(), 1e-10);
     	
     }
 
