@@ -69,9 +69,8 @@ public class NumeroEnteroTest {
     
     @Test
     public void testRestar() {
- 
+
         assertEquals(85, this.numero.restar(15));
-        numero = new NumeroEntero(1000);
 
         assertEquals(999, this.numero.restar(1));
     }
@@ -80,8 +79,9 @@ public class NumeroEnteroTest {
     public void testSumar() {
 
         assertEquals(115, this.numero.sumar(15));
-        numero = new NumeroEntero(1000);
 
         assertEquals(1111, this.numero.sumar(111));
     }
-}
+    
+ }
+

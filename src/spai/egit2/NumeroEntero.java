@@ -51,3 +51,4 @@ public class NumeroEntero {
         return -1;
     }
 }
+
