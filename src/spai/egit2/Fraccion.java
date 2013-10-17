@@ -102,13 +102,15 @@ public class Fraccion {
 	}
 
 	public Fraccion sumar(Fraccion fraccion2) {
-		// TODO Auto-generated method stub
-		return null;
+			this.numerador = (this.numerador * fraccion2.denominador) + (this.denominador * fraccion2.numerador);
+			this.denominador = this.denominador * fraccion2.denominador;
+		return this;
 	}
 
 	public Fraccion restar(Fraccion fraccion2) {
-		// TODO Auto-generated method stub
-		return null;
+			this.numerador = (this.numerador * fraccion2.denominador) - (this.denominador * fraccion2.numerador);
+			this.denominador = this.denominador * fraccion2.denominador;
+		return this;
 	}
 
 }
