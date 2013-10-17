@@ -72,7 +72,7 @@ public class NumeroEnteroTest {
 
         assertEquals(85, this.numero.restar(15));
 
-        assertEquals(999, this.numero.restar(1));
+        assertEquals(99, this.numero.restar(1));
     }
     
     @Test
@@ -80,7 +80,7 @@ public class NumeroEnteroTest {
 
         assertEquals(115, this.numero.sumar(15));
 
-        assertEquals(1111, this.numero.sumar(111));
+        assertEquals(111, this.numero.sumar(11));
     }
     
  }
