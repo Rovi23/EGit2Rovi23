@@ -27,7 +27,6 @@ public class NumeroEntero {
     		this.setValor(this.valor + 1);
     }
     
-    //borrar que es una prueba para que funcionen los test
     public void incrementar(int paso) {
     	if((this.valor+paso)<1000)
     		this.setValor(this.valor + paso);
