@@ -4,7 +4,10 @@ public class NumeroEntero {
     private int valor;
 
     public NumeroEntero(int valor) {
-        this.valor = valor;
+    	if(valor>1000)
+    		this.valor=1000;
+    	else
+    		this.valor = valor;
     }
 
     public NumeroEntero() {
@@ -20,12 +23,14 @@ public class NumeroEntero {
     }
 
     public void incrementar() {
-        this.setValor(this.valor + 1);
+    	if(this.valor<1000)
+    		this.setValor(this.valor + 1);
     }
     
     //borrar que es una prueba para que funcionen los test
     public void incrementar(int paso) {
-        this.setValor(this.valor + paso);
+    	if((this.valor+paso)<1000)
+    		this.setValor(this.valor + paso);
     }
     
 
@@ -36,19 +41,17 @@ public class NumeroEntero {
     public void decrementar() {
         this.valor--;
     }
-    //borrar que es una prueba para que funcionen los test
+
     public void decrementar(int paso) {
         this.setValor(this.valor - paso);
     }
  
-    //borrar que es una prueba para que funcionen los test
     public int sumar(int sumando) {
-        return -1;
+        return this.valor+sumando;
     }
- 
-    //borrar que es una prueba para que funcionen los test
+
     public int restar(int restando) {
-        return -1;
+        return this.valor-restando;
     }
 }
 
