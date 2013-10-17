@@ -69,19 +69,19 @@ public class NumeroEnteroTest {
     
     @Test
     public void testRestar() {
-        this.numero.restar(15);
-        assertEquals(85, this.numero.getValor());
+ 
+        assertEquals(85, this.numero.restar(15));
         numero = new NumeroEntero(1000);
-        this.numero.restar(1);
-        assertEquals(999, this.numero.getValor());
+
+        assertEquals(999, this.numero.restar(1));
     }
     
     @Test
     public void testSumar() {
-        this.numero.sumar(15);
-        assertEquals(115, this.numero.getValor());
+
+        assertEquals(115, this.numero.sumar(15));
         numero = new NumeroEntero(1000);
-        this.numero.sumar(111);
-        assertEquals(1111, this.numero.getValor());
+
+        assertEquals(1111, this.numero.sumar(111));
     }
 }
