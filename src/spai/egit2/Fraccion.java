@@ -87,18 +87,7 @@ public class Fraccion {
 
 
 	public boolean esEquivalente(Fraccion fraccion2) {
-		// TODO Auto-generated method stub
 		return this.getNumerador()*fraccion2.getDenominador() == this.getDenominador()*fraccion2.getNumerador();
-	}
-
-	public Fraccion multiplicar(Fraccion fraccion2) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Fraccion dividir(Fraccion fraccion2) {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	public Fraccion sumar(Fraccion fraccion2) {
