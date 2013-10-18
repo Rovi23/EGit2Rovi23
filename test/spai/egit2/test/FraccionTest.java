@@ -69,7 +69,7 @@ public class FraccionTest {
     	Fraccion fraccion2 = new Fraccion(1, 4);
     	Fraccion result = new Fraccion();
     	result = fraccion.sumar(fraccion2);
-    	assertEquals(17, result.getNumerador());
+    	assertEquals(11, result.getNumerador());
     	assertEquals(12, result.getDenominador());
     }
     
